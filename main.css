@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+h1 {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+.main-container {
+background-color: orange;   
+display: grid; 
+height: 100%;
+grid-template-columns: 200px;
+grid-template-rows: 200px 75px 400px;
+grid-template-areas: 
+"logo"
+"icon"
+"link";
+align-content: center;
+justify-content: center;
+padding: 15px;
+
+}
+.logo-container {
+grid-area: logo;
+}
+.icon-container{
+    grid-area: icon;
+    /* display: flex; 
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    column-gap: 10px;
+}
+.icon-container img{
+width: 40px; 
+}
+.icon-container img + img {
+    /* margin-left: 10px; */
+}
+.link-container {
+    grid-area: link;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+    
