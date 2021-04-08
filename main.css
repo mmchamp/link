@@ -66,7 +66,7 @@ width: 230px; */
     /* text-align: center; */
     /* margin: 0 auto; */
     margin-top: 50px;
-    border: 1px solid #FFFFFF;
+    /* border: 1px solid #FFFFFF; */
     /* border-width: 2px; */
     width: 250px;
     /* display: block; */
@@ -86,18 +86,14 @@ width: 230px; */
     
     /* Hover effect for links text */
     a:hover {
-    color: rgb(236, 119, 22);
+    color: white;
+    background-color: black;
     }
+   h1:hover {
+        color: white;
+        background-color: black;
+        }
     .link-container:hover{
         color: black;
+    
     }
-    /* .button {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      } */
