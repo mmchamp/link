@@ -7,9 +7,14 @@ h1 {
     font-size: 18px;
     position: relative;
     text-align: center;
+    bottom: 295px;
+    line-height: 275%;
+    
 }
 .main-container {
-background-color: orange;   
+background-image: url("Assets/Link-Tree_Background.svg");
+/* background-repeat: no-repeat; */
+background-size: cover;
 display: grid; 
 height: 100%;
 grid-template-columns: 200px;
@@ -18,13 +23,15 @@ grid-template-areas:
 "logo"
 "icon"
 "link";
-align-content: center;
+/* align-content: center; */
 justify-content: center;
+justify-items: center;
 padding: 15px;
-
 }
 .logo-container {
 grid-area: logo;
+width: 185px;
+padding-top: 10px;
 }
 .icon-container{
     grid-area: icon;
@@ -35,18 +42,62 @@ grid-area: logo;
     align-items: center;
     justify-items: center;
     column-gap: 10px;
+    padding-right: 6px;
+    padding-bottom: 15px;
 }
 .icon-container img{
-width: 40px; 
+width: 40px;
 }
 .icon-container img + img {
     /* margin-left: 10px; */
 }
 .link-container {
+    margin-top:250px;
     grid-area: link;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
+    /* align-items: center; */
+    /* justify-items: center; */
 }
+/* .link-container img{
+width: 230px; */
+
+.link-container h1{
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    margin-top: 50px;
+    border: 1px solid #FFFFFF;
+    /* border-width: 2px; */
+    width: 250px;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 50px;
+    background-color:white;
     
+    }
+    
+    /*Text color */
+    a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+    }
+    
+    /* Hover effect for links text */
+    a:hover {
+    color: rgb(236, 119, 22);
+    }
+    .link-container:hover{
+        color: black;
+    }
+    /* .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      } */
