@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
 }
-h1 {
+    h1 {
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -87,7 +87,7 @@ width: 230px; */
     /* Hover effect for links text */
     a:hover {
     color: white;
-    background-color: black;
+    /* background-color: black; */
     }
    h1:hover {
         color: white;
@@ -95,5 +95,4 @@ width: 230px; */
         }
     .link-container:hover{
         color: black;
-    
     }
